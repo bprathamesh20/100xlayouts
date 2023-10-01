@@ -592,6 +592,11 @@ video {
   margin-right: 1rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .-mt-8 {
   margin-top: -2rem;
 }
@@ -618,6 +623,10 @@ video {
 
 .-mt-12 {
   margin-top: -3rem;
+}
+
+.mt-auto {
+  margin-top: auto;
 }
 
 .flex {
@@ -714,6 +723,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-btn-l {
+  width: 27.625rem;
 }
 
 .flex-shrink-0 {
