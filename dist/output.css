@@ -658,6 +658,10 @@ video {
   gap: 0.75rem;
 }
 
+.self-end {
+  align-self: flex-end;
+}
+
 .self-stretch {
   align-self: stretch;
 }

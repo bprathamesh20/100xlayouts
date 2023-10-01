@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class=" px-0.9 pb-5 flex flex-col font-inter bg-neutral-1000 text-neutral-50 w-screen h-screen">
+    <header class="py-3 flex flex-row gap-5">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M18 6L6 18" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M6 6L18 18" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="text-0.9 font-bold">Step 3 of 4</span>
+    </header>
+
+    <main class="flex flex-col gap-5 mt-3 h-full w-full">
+        <div class="flex flex-col gap-2">
+            <h1 class="text-2xl font-bold">We sent you a code</h1>
+            <p class="text-neutral-500 text-0.8">Enter it below to verify janedoe@gmail.com</p>
+
+        </div>
+        
+        <div class="flex flex-col gap-3  w-full items-end ">
+                <div class=" flex flex-col gap-7 self-stretch ">
+                    <fieldset
+                    class="w-full group flex items-center rounded border border-solid border-neutral-500 px-3 py-4 pt-2 focus-within:border-twitter-blue"
+                    >
+                    <legend
+                        class="text-xs font-medium not-italic leading-normal text-neutral-500 group-focus-within:text-twitter-blue"
+                    >
+                        <div class="px-2">Verification code</div>
+                    </legend>
+                    <input
+                        type="text"
+                        placeholder="Verification code"
+                        class="w-full bg-neutral-1000 text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+                    />
+                    </fieldset>
+                </div>
+
+               <p class="text-0.8 font-normal text-twitter-blue ">Didn’t receive a code?</p>
+               
+        </div>
+        <div class="flex flex-col h-full items-center px-5 pt-20 justify-end self-stretch">
+            <button
+      class="bg-neutral-50 py-2 px-6 w-full rounded-btn text-base font-bold text-neutral-1000 font-inter shadow-btn backdrop-btn opacity-50">Next</button>
+
+        </div>
+    </main>
+  
+</body>
+</html>
