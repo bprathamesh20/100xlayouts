@@ -594,6 +594,14 @@ video {
   width: 20.875rem;
 }
 
+.w-btn-l {
+  width: 27.625rem;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -650,12 +658,20 @@ video {
   gap: 0.75rem;
 }
 
+.self-stretch {
+  align-self: stretch;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
 
 .rounded-btn {
   border-radius: 4.0625rem;
+}
+
+.rounded-btn-post {
+  border-radius: 624.9375rem;
 }
 
 .border {
@@ -693,6 +709,11 @@ video {
 .bg-neutral-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(64 64 64 / var(--tw-bg-opacity));
+}
+
+.bg-twitter-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 155 240 / var(--tw-bg-opacity));
 }
 
 .px-0 {
@@ -753,6 +774,11 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pt-2 {
@@ -883,6 +909,11 @@ video {
 .hover\:bg-neutral-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 228 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-twitter-blue-hover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 113 202 / var(--tw-bg-opacity));
 }
 
 .focus\:outline-none:focus {
