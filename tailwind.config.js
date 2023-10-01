@@ -42,6 +42,8 @@ module.exports = {
       borderRadius: {
         'btn':'4.0625rem',
         'btn-sm':'1.875rem',
+        'add':'2rem',
+        'clipboard':'6.25rem',
         'btn-post':'624.9375rem',
         'inp': '0.25rem',
         'search': '6249.9375rem',
@@ -83,6 +85,7 @@ module.exports = {
         '0.12': '0.125rem',
         '0.6': '0.625rem',
         '0.9':'0.9375rem',
+        '3.6':'3.6rem',
         '5.8': '5.8125rem',
         '0.8': '0.9rem',
         '15.4': '15.4375rem',
